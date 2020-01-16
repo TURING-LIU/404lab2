@@ -25,7 +25,7 @@ def send_data(serversocket,payload):
 def main():
     try:
         host = 'www.google.com'
-        pot=80
+        port=80
         payload='GET /HTTP/1.0\r\nHost:'+host+'\r\n\r\n'
         buffer_size=4096
         
